@@ -1,11 +1,15 @@
-// TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+// packages needed for this application
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer');
+const path = require("path");
+const Employee = require("./lib/Employee");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
+const Manager = require("./lib/Manager");
+let individualRoles = [];
 
-// TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+const initiate = () => {
+    inquirer.prompt([
         {
             type: "input",
             name: "managerName",
@@ -26,13 +30,10 @@ inquirer
             name: "officeNumber",
             message: "Enter your office telephone number: ",
         },
-    ])
+    ])  
+};
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
-init();
+
+
