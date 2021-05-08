@@ -30,7 +30,8 @@ const initiate = () => {
             name: "officeNumber",
             message: "Enter your office telephone number: ",
         },
-    ])  
+    ])
+    .then((function))
 };
 
 
