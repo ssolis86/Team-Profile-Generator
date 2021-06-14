@@ -22,4 +22,4 @@ A web application that takes in information about employees on a software engine
 
 #### Sample Generated HTML page
 
-![Sample Generated HTML page](assets/Generated_HTML.png)
+![Sample Generated HTML page](assets/SampleGeneratedHTML.png)
