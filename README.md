@@ -23,3 +23,11 @@ A web application that takes in information about employees on a software engine
 #### Sample Generated HTML page
 
 ![Sample Generated HTML page](assets/SampleGeneratedHTML.png)
+
+#### Shared Link to Video
+
+[Demonstration Link](https://drive.google.com/file/d/164wTBaMg2ooS-KQbwu1S2EdCuKbHED2G/view)
+
+#### Gif of walkthrough
+
+![Video Walkthrough](assets/profile_generator.gif)
